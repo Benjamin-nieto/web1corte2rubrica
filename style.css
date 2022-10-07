@@ -1,0 +1,79 @@
+.body-color {
+    background-color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.btn-mac-action {
+    background-color: #f79710 !important;
+    width: 80px;
+    height: 80px;
+    font-size: xx-large !important;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #f79710 !important;
+    --bs-btn-border-color: #f79710 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #da840d !important;
+    --bs-btn-hover-border-color: #c97500 !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #c97500 !important;
+    --bs-btn-active-border-color: #da6900 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #f79710 !important;
+    margin-top: 15px !important;
+}
+
+@media only screen and (max-width: 200px) {
+    .btn-mac-action{width: 60% !important;}
+    
+  }
+
+
+.btn-calc{
+    background-color: #f79710;
+    border-radius: 5px;
+    width: 85px;
+    height: 85px;
+}
+
+.btn-calc:hover{
+    background-color: #ce7800;
+}
+
+.btn-calc:active{
+    background-color: #834c00;
+    font-weight: bold;
+
+}
+
+.btn-calc-down{
+    background-color: #c9c9c9;
+    border-radius: 5px;
+    width: 76px;
+    height: 76px;
+}
+
+.btn-calc-down:hover{
+    background-color: #a1a1a1;
+    border-radius: 5px;
+
+}
+
+.btn-calc-down:active{
+    background-color: #575757;
+    border-radius: 5px;
+
+}
+
+input#entrada{
+    border-style: inherit;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
