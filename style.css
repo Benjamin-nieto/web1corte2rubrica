@@ -37,7 +37,7 @@ input[type=number]::-webkit-outer-spin-button {
 .btn-calc{
     background-color: #f79710;
     border-radius: 5px;
-    width: 85px;
+    width: 90px;
     height: 85px;
 }
 
@@ -54,7 +54,7 @@ input[type=number]::-webkit-outer-spin-button {
 .btn-calc-down{
     background-color: #c9c9c9;
     border-radius: 5px;
-    width: 76px;
+    width: 90px;
     height: 76px;
 }
 
@@ -76,4 +76,7 @@ input#entrada{
     border-top-right-radius: 7px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    height: 68px;
+    font-size: 24px;
+    width: 100%;
 }
